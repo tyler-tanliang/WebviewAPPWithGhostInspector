@@ -34,16 +34,13 @@ exports.config = {
             browserName: '',
             //deviceName: "emulator-5554",
             deviceName: "7C5831B16389",
-            chromedriverExecutable:`D:\\YGLCode\\driver\\XiaomiDriver\\chromedriver.exe`,
+            chromedriverExecutable:`the driver of your mobiel matched`,
             
             nativeWebScreenshot:true,
             //deviceName: "FA68W0306042",
             //chromedriverExecutable:`D:\\YGLCode\\driver\\PexilDriver\\chromedriver.exe`,
             autoWebview:true,
-            // "androidDeviceSocket":"com.youvegotleads_staging.mobile_devtools_remote",
-			// "chromeOptions": {
-			// "androidDeviceSocket":"com.youvegotleads_staging.mobile_devtools_remote"
-			// },
+           
             //deviceReadyTimeout:180000,
             //appWaitDuration:90000,
             //autoWebviewTimeout:90000,
@@ -52,9 +49,9 @@ exports.config = {
             platformName: "Android",
             //platform:'windows',
             appActivity: "MainActivity",
-            appPackage: "com.youvegotleads.mobile"
+            appPackage: "your apppackage"
             
-            //appPackage: "com.youvegotleads_staging.mobile"
+            
             
         }
         //,
@@ -66,9 +63,9 @@ exports.config = {
         //                  autoWebview:true,
         //     	  "platformVersion": "11.3",
         //           "deviceName":"iPhone 6",
-        //           //"deviceName":"iPhone 8 (64C65E8C-446D-47C8-A157-F6A0E2F41B9F) (Booted)",
+        //          
         //     	  "automationName":"XCUITest",
-        //     	  "bundleId":"com.youvegotleads.mobile"
+        //     	  "bundleId":"your app id"
         //                 }
     ],
 
@@ -96,7 +93,6 @@ exports.config = {
     // with `/`, the base url gets prepended, not including the path portion of your baseUrl.
     // If your `url` parameter starts without a scheme or `/` (like `some/path`), the base url
     // gets prepended directly.
-    //baseUrl: 'https://beta-staging.youvegotleads.com',
     //baseUrl: 'http://localhost:4444/grid/console',
     
     //
