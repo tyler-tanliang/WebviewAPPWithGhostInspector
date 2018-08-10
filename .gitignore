@@ -1,9 +1,7 @@
 # node.js
 #
+!*.keep
 node_modules/
 npm-debug.log
 yarn-error.log
-allure-report/
-allure-results/
-screenshots/
 .vscode/
