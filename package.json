@@ -1,0 +1,21 @@
+{
+  "name": "wdio-appium-GhostInspector",
+  "version": "1.0.0",
+  "description": "study",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "author": "tyler",
+  "license": "ISC",
+  "dependencies": {
+    "mocha": "^5.2.0",
+    "wdio-mocha-framework": "^0.5.13",
+    "webdriverio": "^4.12.0"
+  },
+  "devDependencies": {
+    "wdio-allure-reporter": "^0.6.2",
+    "wdio-screenshot": "^0.6.0",
+    "wdio-visual-regression-service": "^0.9.0"
+  }
+}
